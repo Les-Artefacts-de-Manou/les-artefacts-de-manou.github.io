@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Althéa</title>
+  <style>
+    :root { --fond:#f4efea; --carte:#ffffff; --texte:#4a4a4a; --titre:#4b695a; --accent:#7e5f70; --filet:#dac9b8; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fond:#2b2a28; --carte:#353331; --texte:#e9e4de; --titre:#b2c5ba; --accent:#d9c2cf; --filet:#5a544e; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--fond); color:var(--texte); font:17px/1.6 Calibri, "Segoe UI", Arial, sans-serif; }
+    main { max-width:760px; margin:0 auto; padding:32px 16px 48px; }
+    .carte { background:var(--carte); border:1px solid var(--filet); border-radius:12px; padding:28px 28px 20px; }
+    h1 { color:var(--titre); font-size:1.8em; margin:0 0 4px; }
+    h2 { color:var(--titre); font-size:1.2em; margin:28px 0 8px; }
+    .sous-titre { color:var(--accent); margin:0 0 20px; }
+    a { color:var(--accent); }
+    ul { padding-left:1.2em; }
+    li { margin:4px 0; }
+    footer { margin-top:24px; font-size:.9em; color:var(--accent); text-align:center; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="carte">
+      <h1>Althéa</h1>
+      <p class="sous-titre">Logiciel de gestion de cabinet pour psychologue et graphothérapeute</p>
+
+      <p>Althéa est une application installée sur l'ordinateur du cabinet. Elle aide le praticien à tenir ses fiches patients, ses dossiers, ses séances, ses paiements et son agenda. Elle est éditée par <strong>Les Artefacts de Manou</strong> et utilisée aujourd'hui par un cabinet en Belgique.</p>
+
+      <h2>Althéa et Google Agenda</h2>
+      <p>Si le praticien le souhaite, Althéa se relie à son compte Google pour :</p>
+      <ul>
+        <li>créer un agenda à part, « Althéa – Cabinet », et y inscrire les rendez-vous du cabinet, pour qu'il les voie aussi sur son téléphone ;</li>
+        <li>savoir à quels moments il est déjà occupé dans ses autres agendas, pour ne pas lui proposer ces créneaux.</li>
+      </ul>
+      <p>Le détail de ce qu'Althéa lit, écrit et garde se trouve dans les <a href="confidentialite.html">règles de confidentialité</a>.</p>
+
+      <h2>Contact</h2>
+      <p><a href="mailto:lesartefactsdemanou@gmail.com">lesartefactsdemanou@gmail.com</a></p>
+    </div>
+    <footer>Althéa — Les Artefacts de Manou</footer>
+  </main>
+</body>
+</html>

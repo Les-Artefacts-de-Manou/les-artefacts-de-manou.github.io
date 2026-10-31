@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Althéa – confidentialité</title>
+  <style>
+    :root { --fond:#f4efea; --carte:#ffffff; --texte:#4a4a4a; --titre:#4b695a; --accent:#7e5f70; --filet:#dac9b8; }
+    @media (prefers-color-scheme: dark) {
+      :root { --fond:#2b2a28; --carte:#353331; --texte:#e9e4de; --titre:#b2c5ba; --accent:#d9c2cf; --filet:#5a544e; }
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--fond); color:var(--texte); font:17px/1.6 Calibri, "Segoe UI", Arial, sans-serif; }
+    main { max-width:760px; margin:0 auto; padding:32px 16px 48px; }
+    .carte { background:var(--carte); border:1px solid var(--filet); border-radius:12px; padding:28px 28px 20px; }
+    h1 { color:var(--titre); font-size:1.8em; margin:0 0 4px; }
+    h2 { color:var(--titre); font-size:1.2em; margin:28px 0 8px; }
+    .sous-titre { color:var(--accent); margin:0 0 20px; }
+    a { color:var(--accent); }
+    ul { padding-left:1.2em; }
+    li { margin:4px 0; }
+    footer { margin-top:24px; font-size:.9em; color:var(--accent); text-align:center; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="carte">
+      <h1>Règles de confidentialité</h1>
+      <p class="sous-titre">Althéa et les données de votre compte Google — mise à jour le 31 octobre 2026</p>
+
+      <p>Althéa est un logiciel de gestion de cabinet, édité par <strong>Les Artefacts de Manou</strong>, installé et utilisé sur l'ordinateur du cabinet. Cette page explique ce qu'Althéa fait des données de votre compte Google quand vous l'autorisez à accéder à Google Agenda.</p>
+
+      <h2>Ce qu'Althéa demande à Google, et pourquoi</h2>
+      <ul>
+        <li><strong>Créer et gérer ses propres agendas</strong> : Althéa crée un agenda secondaire « Althéa – Cabinet » et y inscrit, modifie ou retire les rendez-vous du cabinet. Elle n'agit que sur les agendas qu'elle a créés ; vos autres agendas ne sont ni lus en détail ni modifiés. Les événements qu'elle inscrit portent un titre court (par exemple un prénom, une initiale et le type de consultation), jamais d'information clinique.</li>
+        <li><strong>Voir vos disponibilités</strong> : pour ne pas vous proposer un créneau où vous êtes déjà pris, Althéa demande à Google les moments occupés des agendas que vous choisissez. Google ne lui donne que des heures de début et de fin, sans titre ni détail. Ces moments sont utilisés le temps de l'affichage et ne sont jamais enregistrés.</li>
+        <li><strong>Voir la liste de vos agendas</strong> : pour que vous choisissiez ceux dont les moments occupés doivent être pris en compte.</li>
+      </ul>
+
+      <h2>Où sont gardées les données</h2>
+      <ul>
+        <li>L'autorisation donnée à Althéa (le jeton remis par Google) est gardée <strong>sur l'ordinateur du cabinet</strong>, chiffrée par Windows pour le compte de l'utilisatrice.</li>
+        <li>Les données des patients restent dans la base de données du cabinet, sur son propre matériel. Seuls les rendez-vous (titre court, date et heure) sont inscrits dans l'agenda « Althéa – Cabinet » de votre compte Google.</li>
+        <li>Aucune donnée de votre compte Google n'est envoyée à l'éditeur d'Althéa ni à un tiers. Elle n'est ni vendue, ni utilisée pour de la publicité, ni pour entraîner un modèle d'intelligence artificielle.</li>
+      </ul>
+
+      <h2>Respect des règles de Google</h2>
+      <p>L'utilisation et le transfert par Althéa des informations reçues des API de Google respectent les <a href="https://developers.google.com/terms/api-services-user-data-policy">règles relatives aux données des utilisateurs des services d'API Google</a>, y compris les exigences d'utilisation limitée (<em>Limited Use</em>).</p>
+
+      <h2>Retirer l'autorisation</h2>
+      <p>Vous pouvez à tout moment déconnecter Althéa de Google depuis ses Paramètres, ou retirer son accès depuis votre compte Google : <a href="https://myaccount.google.com/connections">myaccount.google.com › Sécurité › Vos connexions à des applications et services tiers</a>. L'agenda « Althéa – Cabinet » reste alors dans votre compte : vous pouvez le garder ou le supprimer.</p>
+
+      <h2>Données des patients</h2>
+      <p>Le cabinet qui utilise Althéa est responsable des données de ses patients au sens du RGPD. L'éditeur d'Althéa n'y a pas accès.</p>
+
+      <h2>Contact</h2>
+      <p><a href="mailto:lesartefactsdemanou@gmail.com">lesartefactsdemanou@gmail.com</a> — <a href="index.html">Althéa</a></p>
+    </div>
+    <footer>Althéa — Les Artefacts de Manou</footer>
+  </main>
+</body>
+</html>
